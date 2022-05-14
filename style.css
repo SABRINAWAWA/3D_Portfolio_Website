@@ -1,0 +1,66 @@
+canvas{
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+main{
+  position: absolute;
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  margin: 0px auto;
+  padding: 120px 0px;
+}
+
+section{
+  background-image: url('sliver_bg.jpeg');
+  background-size: cover;
+  padding: 25px;
+  margin: 50px;
+  width: 500px;
+  color: black;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin:50px;
+  padding: 50px;
+  font-weight: 400;
+  z-index: 15;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header h1{
+  font-size: 80px;
+}
+
+header p{
+  width:500px;
+  font-size: 35px;
+  margin-top: 250px;
+}
+
+blockquote{
+  background-image: url("gold_bg.jpeg");
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin: 50px;
+  padding: 25px;
+  font-size: 25px;
+}
+
+.degree_title{
+  color: rgb(187, 108, 34);
+  font-weight: 800;
+  font-size: 24px;
+}
+
+#skills, #internships, #contacts{
+  position: relative;
+  right:-800px;
+}
